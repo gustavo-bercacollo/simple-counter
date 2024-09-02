@@ -1,0 +1,60 @@
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(117deg, rgba(0, 0, 0, 1) 0%, rgba(67, 67, 67, 1) 100%);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px; 
+  padding: 40px 60px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.404); 
+  width: 100%; 
+  max-width: 500px; 
+  box-sizing: border-box; 
+}
+
+.title {
+  display: flex; 
+  align-items: center; 
+  gap: 10px;
+}
+
+.counterSvg {
+  width: 60px;
+  height: auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+button {
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 50px;
+  height: 40px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.404);
+}
+
+button:hover {
+  background-color: #555;
+}
