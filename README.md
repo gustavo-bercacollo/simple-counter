@@ -18,40 +18,18 @@ A interface também inclui um ícone SVG ao lado do título para melhor identifi
 - **Decremento:** Diminui o valor do contador em 1 a cada clique.
 - **Resetar:** Define o valor do contador de volta para 0.
 
-## Como Executar o Projeto
 
-Para executar este projeto localmente, siga os passos abaixo:
+## Tecnologias Utilizadas
 
-##Estrutura do Projeto
-O projeto é organizado da seguinte forma:
+- **React:** Biblioteca JavaScript para construir interfaces de usuário.
+- **HTML5 e CSS3:** Estrutura e estilos básicos.
+- **JavaScript (ES6+):** Lógica do contador.
+- **SVG:** Ícone visual para o título.
 
-java
-Copiar código
-contador-simples/
-│
-├── public/
-│   ├── index.html
-│   └── ...
-│
-├── src/
-│   ├── components/
-│   │   └── Counter.js
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-│
-├── .gitignore
-├── package.json
-└── README.md
+## Contribuições
 
-##Tecnologias Utilizadas
-React: Biblioteca JavaScript para construir interfaces de usuário.
-HTML5 e CSS3: Estrutura e estilos básicos.
-JavaScript (ES6+): Lógica do contador.
-SVG: Ícone visual para o título.
-
-##Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-##Licença
+## Licença
+
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
