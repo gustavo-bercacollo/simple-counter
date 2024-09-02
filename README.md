@@ -22,24 +22,7 @@ A interface também inclui um ícone SVG ao lado do título para melhor identifi
 
 Para executar este projeto localmente, siga os passos abaixo:
 
-### Clone este repositório:
-
-```bash
-git clone https://github.com/seu-usuario/contador-simples.git
-cd contador-simples
-Instale as dependências:
-Certifique-se de ter o Node.js instalado. Então, execute:
-
-bash
-Copiar código
-npm install
-Execute a aplicação:
-bash
-Copiar código
-npm start
-A aplicação estará disponível em http://localhost:3000.
-
-Estrutura do Projeto
+##Estrutura do Projeto
 O projeto é organizado da seguinte forma:
 
 java
@@ -60,13 +43,15 @@ contador-simples/
 ├── .gitignore
 ├── package.json
 └── README.md
-Tecnologias Utilizadas
+
+##Tecnologias Utilizadas
 React: Biblioteca JavaScript para construir interfaces de usuário.
 HTML5 e CSS3: Estrutura e estilos básicos.
 JavaScript (ES6+): Lógica do contador.
 SVG: Ícone visual para o título.
-Contribuições
+
+##Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Licença
+##Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
