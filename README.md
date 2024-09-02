@@ -1,8 +1,71 @@
-# React + Vite
+Contador Simples em React
+Este é um projeto simples de um contador construído usando React. O contador permite incrementar, decrementar e resetar o valor exibido. Este projeto é ideal para quem está começando a aprender React e deseja entender como gerenciar estado e eventos em componentes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visão Geral
+O contador consiste em uma interface básica onde o usuário pode:
 
-Currently, two official plugins are available:
+Incrementar o valor atual.
+Decrementar o valor atual.
+Resetar o valor para zero.
+A interface também inclui um ícone SVG ao lado do título para melhor identificação visual.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Funcionalidades
+Incremento: Aumenta o valor do contador em 1 a cada clique.
+Decremento: Diminui o valor do contador em 1 a cada clique.
+Resetar: Define o valor do contador de volta para 0.
+Captura de Tela
+
+Como Executar o Projeto
+Para executar este projeto localmente, siga os passos abaixo:
+
+Clone este repositório:
+
+bash
+Copiar código
+git clone https://github.com/seu-usuario/contador-simples.git
+cd contador-simples
+Instale as dependências:
+
+Certifique-se de ter o Node.js instalado. Então, execute:
+
+bash
+Copiar código
+npm install
+Execute a aplicação:
+
+bash
+Copiar código
+npm start
+A aplicação estará disponível em http://localhost:3000.
+
+Estrutura do Projeto
+O projeto é organizado da seguinte forma:
+
+java
+Copiar código
+contador-simples/
+│
+├── public/
+│   ├── index.html
+│   └── ...
+│
+├── src/
+│   ├── components/
+│   │   └── Counter.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+│
+├── .gitignore
+├── package.json
+└── README.md
+Tecnologias Utilizadas
+React: Biblioteca JavaScript para construir interfaces de usuário.
+HTML5 e CSS3: Estrutura e estilos básicos.
+JavaScript (ES6+): Lógica do contador.
+SVG: Ícone visual para o título.
+Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
