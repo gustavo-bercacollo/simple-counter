@@ -1,38 +1,39 @@
-Contador Simples em React
+# Contador Simples em React
+
 Este é um projeto simples de um contador construído usando React. O contador permite incrementar, decrementar e resetar o valor exibido. Este projeto é ideal para quem está começando a aprender React e deseja entender como gerenciar estado e eventos em componentes.
 
-Visão Geral
+## Visão Geral
+
 O contador consiste em uma interface básica onde o usuário pode:
 
-Incrementar o valor atual.
-Decrementar o valor atual.
-Resetar o valor para zero.
+- **Incrementar** o valor atual.
+- **Decrementar** o valor atual.
+- **Resetar** o valor para zero.
+
 A interface também inclui um ícone SVG ao lado do título para melhor identificação visual.
 
-Funcionalidades
-Incremento: Aumenta o valor do contador em 1 a cada clique.
-Decremento: Diminui o valor do contador em 1 a cada clique.
-Resetar: Define o valor do contador de volta para 0.
-Captura de Tela
+## Funcionalidades
 
-Como Executar o Projeto
+- **Incremento:** Aumenta o valor do contador em 1 a cada clique.
+- **Decremento:** Diminui o valor do contador em 1 a cada clique.
+- **Resetar:** Define o valor do contador de volta para 0.
+
+## Como Executar o Projeto
+
 Para executar este projeto localmente, siga os passos abaixo:
 
-Clone este repositório:
+### Clone este repositório:
 
-bash
-Copiar código
+```bash
 git clone https://github.com/seu-usuario/contador-simples.git
 cd contador-simples
 Instale as dependências:
-
 Certifique-se de ter o Node.js instalado. Então, execute:
 
 bash
 Copiar código
 npm install
 Execute a aplicação:
-
 bash
 Copiar código
 npm start
